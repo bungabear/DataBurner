@@ -1,14 +1,8 @@
 package com.bungabear.databurnner
 
-import android.app.AppOpsManager
-import android.app.AppOpsManager.OPSTR_GET_USAGE_STATS
-import android.content.Context
-import android.net.TrafficStats
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.AppOpsManagerCompat.MODE_ALLOWED
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +17,5 @@ class MainActivity : AppCompatActivity() {
 //            Snackbar.make(view, "${trafficBytes/1024/1024}MBytes", Snackbar.LENGTH_LONG)
 //                    .setAction("Action", null).show()
         }
-
     }
-
 }
