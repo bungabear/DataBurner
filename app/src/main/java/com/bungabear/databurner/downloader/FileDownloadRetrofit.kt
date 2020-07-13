@@ -1,6 +1,6 @@
-package com.bungabear.databurnner.network
+package com.bungabear.databurner.downloader
 
-import com.bungabear.databurnner.Config
+import com.bungabear.databurner.util.Config
 import retrofit2.Retrofit
 
 object FileDownloadRetrofit{

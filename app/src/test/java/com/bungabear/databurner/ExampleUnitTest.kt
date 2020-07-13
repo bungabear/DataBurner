@@ -1,4 +1,4 @@
-package com.bungabear.databurnner
+package com.bungabear.databurner
 
 import org.junit.Test
 

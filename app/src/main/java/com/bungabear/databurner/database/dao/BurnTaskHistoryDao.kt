@@ -1,4 +1,4 @@
-package com.bungabear.databurnner.database.dao
+package com.bungabear.databurner.database.dao
 
 import androidx.room.Dao
 import androidx.room.Insert

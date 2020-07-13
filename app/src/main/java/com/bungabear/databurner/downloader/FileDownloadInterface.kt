@@ -1,4 +1,4 @@
-package com.bungabear.databurnner.network
+package com.bungabear.databurner.downloader
 
 import okhttp3.ResponseBody
 import retrofit2.Call

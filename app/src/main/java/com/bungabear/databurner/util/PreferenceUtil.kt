@@ -1,4 +1,4 @@
-package com.bungabear.databurnner
+package com.bungabear.databurner.util
 
 import android.content.Context
 

@@ -1,9 +1,9 @@
-package com.bungabear.databurnner.database
+package com.bungabear.databurner.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.bungabear.databurnner.database.dao.BurnTaskHistory
-import com.bungabear.databurnner.database.dao.BurnTaskHistoryDao
+import com.bungabear.databurner.database.dao.BurnTaskHistory
+import com.bungabear.databurner.database.dao.BurnTaskHistoryDao
 
 @Database(entities = [BurnTaskHistory::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
